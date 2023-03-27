@@ -38,7 +38,7 @@ search_btn.addEventListener("click", async ()=>{
              <div class="container">
                <div class="card">
                  <div class="card-header">
-                  <div class="card-title">TOP-${i+1}</div>
+                  <div class="card-title">${i+1}</div>
                  <div class="card-body"> </div>
                  Country_id:${result.country[i].country_id}<br>
                  Probability :${result.country[i].probability}<br><br>
